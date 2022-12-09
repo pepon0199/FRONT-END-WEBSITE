@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+
+    <!-- FONT AWESOME CDNJS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a54d2cbf95.js"></script>
+    <title>SINOBONG CES | OFFICIAL WEBSITE</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container">
+        <div class="header-main">
+          <div class="logo">
+            <a href="#"><img src="images/logo.png" alt=""></a>
+          </div>
+           <div class="logo_title">
+             <p>SINOBONG CENTRAL ELEMENTARY SCHOOL</p>
+           </div>
+          <div class="open-nav-menu">
+            <span></span>
+          </div>
+
+          <div class="menu-overlay">
+          </div>
+          <!-- NAVBAR -->
+          <nav class="nav-menu">
+            <div class="close-nav-menu">
+              <i class="fa fa-times"></i>
+            </div>
+            <ul class="menu">
+              <li class="menu-item"><a href="#"><i class="fa fa-home"></i>HOME</a></li>
+              <li class="menu-item menu-item-has-children">
+                <a href="#" data-toggle="sub-menu"><i class="fa fa-user"></i>ABOUT US<i class="plus"></i></a>
+                <ul class="sub-menu">
+                  <li class="menu-item"><a href="#M&V">Mission and Vision</a></li>
+                  <li class="menu-item"><a href="#">History</a></li>
+                  <li class="menu-item"><a href="#">School Profile</a></li>
+                  <li class="menu-item"><a href="#">Programs</a></li>
+                  <li class="menu-item"><a href="2.html" target="_blank">Faculty and Staff</a></li>
+                </ul>
+
+              </li>
+              <li class="menu-item menu-item-has-children">
+                <a href="news-and-updates" data-toggle="sub-menu"><i class="fa fa-newspaper-o"></i>NEWS & UPDATES<i class="plus"></i></a>
+                <ul class="sub-menu">
+                  <li class="menu-item"><a href="#">School Events</a></li>
+                  <li class="menu-item"><a href="#">Journal</a></li>
+                </ul>
+              </li>
+              <li class="menu-item"><a href="#"><i class="fa fa-trophy"></i>ACHIEVEMENTS</a></li>
+              <li class="menu-item"><a href="#"><i class="fa fa-question"></i>FAQs</a></li>
+              <li class="menu-item"><a href="#">TRANSPARENCY BOARD</a></li>
+              <li class="menu-item"><a href="#">LRMDS PORTAL</a></li>
+              <li class="menu-item"><a href="#contact-us"><i class="fa fa-phone"></i>CONTACT US</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+  <div class="slider">
+  		<!-- fade css -->
+  		<div class="myslide fade">
+  			<div class="txt-welcome">
+  				<h2>WELCOME TO</h2>
+          <h1>SINOBONG CENTRAL ELEMENTARY SCHOOL</h1>
+  				<a href="#news-and-events">Learn More</a>
+  			</div>
+        <img src="images/banner1.jpg" style="width: 100%; height: 100%;">
+  		</div>
+
+  		<div class="myslide fade">
+  			<div class="txt">
+  				<h1>BUILDING</h1>
+  				<!-- <p>sdfsdfdsfsdfsd</p> -->
+  			</div>
+  			<img src="images/sinobong-building.jpg" style="width: 100%; height: 100%;">
+  		</div>
+
+  		<div class="myslide fade">
+  			<div class="txt">
+  				<h1>GROUND</h1>
+  				<!-- <p>sdfsdfdsfsdfds</p> -->
+  			</div>
+  			<img src="images/ground.jpg" style="width: 100%; height: 100%;">
+  		</div>
+
+  		<div class="myslide fade">
+  			<div class="txt">
+  				<h1>GULAYAN SA PAARALAN</h1>
+  				<!-- <p>sdfsdfsdfsdfds</p> -->
+  			</div>
+  			<img src="images/garden.jpg" style="width: 100%; height: 100%;">
+  		</div>
+
+      <!-- onclick js -->
+  		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <div class="dotsbox" style="text-align:center">
+  			<span class="dot" onclick="currentSlide(1)"></span>
+  			<span class="dot" onclick="currentSlide(2)"></span>
+  			<span class="dot" onclick="currentSlide(3)"></span>
+  			<span class="dot" onclick="currentSlide(4)"></span>
+  		</div>
+    </div>
+
+    <!-- Logo Slider -->
+    <div class="wrapper">
+      <div class="logo-slider">
+        <div class="slide">
+          <img src="images/deped-logo.png" alt="" height="100" width="100">
+          <img src="images/deped-ads-logo.png" alt="" height="100" width="100">
+          <img src="images/logo.png" alt="" height="110" width="100">
+          <img src="images/Ads-province-logo.png" alt="" height="100" width="100">
+          <img src="images/veruela_logo.png" alt="" height="100" width="100">
+        </div>
+
+        <div class="slide">
+          <img src="images/deped-logo.png" alt="" height="100" width="100">
+          <img src="images/deped-ads-logo.png" alt="" height="100" width="100">
+          <img src="images/logo.png" alt="" height="110" width="100">
+          <img src="images/Ads-province-logo.png" alt="" height="100" width="100">
+          <img src="images/veruela_logo.png" alt="" height="100" width="100">
+        </div>
+      </div>
+    </div>
+
+    <!-- NEWS AND EVENTS -->
+    <section id="news-and-events">
+      <div class="news-section">
+        <div class="title">
+          <h1>News and Updates</h1>
+        </div>
+
+        <div class="column-card">
+          <div class="card">
+            <img src="images/araw-ng-pagpabasa.jpg" alt="">
+            <div class="panel">
+              <span class="date">November 10, 2022</span>
+              <p>ARAW NG PAGPAPABASA 2022</p>
+              <span class="breaker"></span>
+              <a href="#">Read More <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="images/mutya-ng-sinobong22.jpg" alt="">
+            <div class="panel">
+              <span class="date">October 30, 2022</span>
+              <p>MUTYA NG SINOBONG 2022</p>
+              <span class="breaker"></span>
+              <a href="#">Read More <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="images/bun_distribution.jpg" alt="">
+            <div class="panel">
+              <span class="date">October 20, 2022</span>
+              <p>MILKY BUN DISTRIBUTION</p>
+              <span class="breaker"></span>
+              <a href="#">Read More <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="images/pta.jpg" alt="">
+            <div class="panel">
+              <span class="date">September 30, 2022</span>
+              <p>1st GPTA ASSEMBLY</p>
+              <span class="breaker"></span>
+              <a href="#">Read More <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="images/brigada.jpg" alt="">
+            <div class="panel">
+              <span class="date">August 5, 2022</span>
+              <p>BRIGADA ESKWELA 2022</p>
+              <span class="breaker"></span>
+              <a href="#">Read More <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="event-page-numbers">
+          <ul class="pagination">
+            <li><a href="#"><i class="fa fa-chevron-left"></i></a></li>
+            <li class="active"><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#"><i class="fa fa-chevron-right"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!--Mission and Vision--->
+    <section class="course" id="M&V">
+      <div class="title">
+        <h1>Importance of Mission and Vision</h1>
+      </div>
+      <p>To protect and promote the right of every Filipino to quality, equitable, culture-based, and complete basic education where:<br> Students learn in a <strong>child-friendly, gender-sensitive, safe,</strong> and <strong>motivating environment</strong>.</p>
+
+      <div class="row">
+        <div class="course-col">
+          <h3>MISSION</h3>
+          <p>To protect and promote the right of every Filipino to quality, equitable, culture-based, and complete basic education where:</p>
+
+          <p>Students learn in a child-friendly, gender-sensitive, safe, and motivating environment.
+            Teachers facilitate learning and constantly nurture every learner.
+            Administrators and staff, as stewards of the institution, ensure an enabling and supportive environment for effective learning to happen.
+            Family, community, and other stakeholders are actively engaged and share responsibility for developing life-long learners.</p>
+        </div>
+        <div class="course-col">
+          <h3>VISION</h3>
+          <p>We dream of Filipinos
+            who passionately love their country
+            and whose values and competencies
+            enable them to realize their full potential
+            and contribute meaningfully to building the nation.</p>
+
+          <p>As a learner-centered public institution,
+            the Department of Education
+            continuously improves itself
+            to better serve its stakeholders.</p>
+        </div>
+    </section>
+
+    <!-- Contact Map -->
+    <div class="contact-main" id="contact-us">
+    <div class="contact-in">
+      <div class="contact-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.636047924027!2d125.90280431405412!3d8.036407305957768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32fe801a62ab345f%3A0x4443fce5a4620b11!2sSinobong%20Central%20Elementary%20School!5e0!3m2!1sen!2sph!4v1667981924530!5m2!1sen!2sph"
+        width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="contact-form">
+        <h1>Contact Us</h1>
+        <form class="contact-form-main" action="index.html" method="post" id="contact-form-main">
+          <input type="text" placeholder="Your Name" class="contact-form-txt" required>
+          <input type="email" placeholder="Email Address" class="contact-form-email" required>
+          <textarea placeholder="Write a message here.." class="contact-form-txtarea"></textarea>
+          <input type="submit" name="Submit" value="Submit" class="contact-form-btn">
+        </form>
+      </div>
+    </div>
+    </div>
+
+    <!-- FOOTER -->
+    <section class="footer-section">
+      <footer>
+        <div class="footer-main">
+          <div class="footer-wrapper">
+            <div class="footer-widget">
+              <div class="footer-image-logo">
+                <a href="#">
+                  <img src="images/logo.png" alt="" class="footer-logo" height="100" width="100">
+                </a>
+                <p>SINOBONG CENTRAL <br>ELEMENTARY SCHOOL</p>
+              </div>
+              <p class="footer-about">Monday - Friday: 7:30am - 4:30 pm <br>Contact Number: +639096382298</p>
+              <ul class="footer-socials">
+                <li><a href="https://www.facebook.com/people/Sinobong-Central-Elementary-School/100063714445845/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+              </ul>
+            </div>
+
+            <div class="footer-widget">
+              <h6>Downloadable Forms</h6>
+              <ul class="links">
+                <li><a href="https://view.officeapps.live.com/op/view.aspx?src=http%3A%2F%2Fmlbnes.depedmalaboncity.ph%2Fwp-content%2Fuploads%2F2019%2F03%2FCSC-Form-212-Personal-Data-Sheet.xlsx&wdOrigin=BROWSELINK" target="_blank">CSC FORM 212 (PDS)</a></li>
+                <li><a href="https://www.deped.gov.ph/alternative-learning-system/resources/downloads/e-class-record-templates/" target="_blank">E-CLASS Record Template</a></li>
+                <li><a href="https://www.dbm.gov.ph/wp-content/uploads/Transparency/Agency-Review-and-Compliance/2020/D.2015-SALN-Form.pdf" target="_blank">SALN Form</a></li>
+                <li><a href="https://www.deped-click.com/search/label/DLL?&max-results=7" target="_blank">Daily Lesson Log</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-widget">
+              <h6>Government Links</h6>
+              <ul class="links">
+                <li><a href="https://op-proper.gov.ph/" target="_blank">Office of the President</a></li>
+                <li><a href="https://ovp.gov.ph/" target="_blank">Office of the Vice President</a></li>
+                <li><a href="https://www.senate.gov.ph" target="_blank">Senate of the Philippines</a></li>
+                <li><a href="https://www.congress.gov.ph/" target="_blank">House of Representatives</a></li>
+                <li><a href="https://sc.judiciary.gov.ph/" target="_blank">Supreme Court</a></li>
+                <li><a href="https://ca.judiciary.gov.ph/" target="_blank">Court of Appeals</a></li>
+                <li><a href="https://sb.judiciary.gov.ph/" target="_blank">Sandiganbayan</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-widget">
+              <h6>Deped Links</h6>
+              <ul class="links">
+                <li><a href="https://www.deped.gov.ph/" target="_blank">Department of Education</a></li>
+                <li><a href="https://depedagusandelsur.org/web/public/" target="_blank">DepEd Agusan del Sur</a></li>
+                <li><a href="https://lis.deped.gov.ph/uis/login" target="_blank">Learning Information System</a></li>
+                <li><a href="#" target="_blank">Learning Resource Management & Development System</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="copyright-footer">
+            <p><a href="#" target="_blank">Sinobong Central Elementary School</a> | All Rights Reserved</p>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <!-- BACK TO TOP BUTTON -->
+    <a href="#" class="to-top">
+      <i class="fa fa-arrow-up"></i>
+    </a>
+
+    <!-- EMAIL JS LINK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <!-- SWEET ALERT JS LINK -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <script type="text/javascript">emailjs.init('-U_drPNMBSc061NXd')</script>
+
+    <!-- JAVASCRIPT CODE STYLE -->
+    <script src="script.js"></script>
+  </body>
+</html>
